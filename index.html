@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo/logo.png" type="png">
+  </head>
+  <body>
+    <div class="bar">
+        <p class="to-do"><img class="logo" src="logo/logo.png">My To-Do List</p>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <div>
+                <p class="newtask">Add new task:</p>
+            </div>
+            <input type="text" class="form-input form-element" placeholder="Enter Title">
+            <textarea class="form-description form-element" placeholder="Enter Description"></textarea>
+            <div class="form-button-container">
+                <button class="form-button-clear">Clear</button>
+                <button class="form-button-save">Save</button>
+            </div>
+        </div>
+        <div class="border"></div>
+        <ul class="list-container">
+        </ul>
+    </div>
+	<script src="app.js"></script>
+  </body>
+</html>
